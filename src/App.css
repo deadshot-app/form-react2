@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+body {
+  background-color: lightblue;
+  /* padding-left: 300px; */
+  padding-top: 150px;
+}
 
 .App-logo {
   height: 40vmin;
@@ -23,7 +28,34 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.icon-bar {
+  /* padding-left: 300px;
+  padding-top: 180px;
+  align-items: center; */
+  height: 350px;
+  background-color: white;
+  width: 290px;
+  margin-left: 550px;
+  padding: 70px;
+  border-radius: 8px;
+}
+.icon2 {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  height: 35px;
+  width: 220px;
+}
+.ease {
+  margin-bottom: 20px;
+  margin-left: 30px;
+  height: 35px;
+  width: 220px;
+  border-radius: 5px;
+}
+.access {
+  margin-left: 30px;
+  height: 35px;
+}
 .App-link {
   color: #61dafb;
 }
